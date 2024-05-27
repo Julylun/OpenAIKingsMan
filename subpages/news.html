@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Overview</title>
+    <!-- bootstrap cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <!-- bootstrap icon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/news.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-custom" id="fixNav">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/assets/img/home/logo.png">
+            </a>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/subpages/product.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/subpages/news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/subpages/career.html">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/subpages/about.html">About us</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn" type="button">
+                <img src="/assets/img/home/search.png">
+            </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </header>
+    <!-- desktop_News1 -->
+    <section class="home">
+        <section>
+            <div class="container-fluid">
+                <div class="flex-vertical" id="brief-introduction">
+                    <div class="text-center text-balance">
+                        <p class="new">News</p>
+                        <h1 class="text-balance">
+                            Overview
+                        </h1>
+                    </div>
+                    <div class="container">
+                        <div class="left">
+                            <div class="image-container">
+                                <img src="/assets/img/news/image_left.png">
+                                <div class="text-top">Research May 13, 2024</div>
+                                <div class="text-bottomleft">Hello GPT-4o</div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="image-container">
+                                <div class="right-top">
+                                    <img src="/assets/img/news/image_right1.png">
+                                    <div class="text-top">Company May 8, 2024</div>
+                                    <div class="text-bottom">Introducing the Model Spec</div>
+                                </div>
+                            </div>
+                            <div class="image-container">
+                                <div class="right-bottom">
+                                    <video src="/assets/img/news/productmp4.mp4" autoplay muted loop
+                                        style="max-width: 100%; height: 100%;"></video>
+                                    <div class="text-top">Product May 13, 2024</div>
+                                    <div class="text-bottom">Introducing GPT-4o and more tools to chatGPT free users
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- desktop2 -->
+        <section>
+            <div class="img-gallery">
+                <div class="slider-header">
+                    <h1>Product</h1>
+                    <div>
+                        <button
+                            class="hover:text-btn-base--hover focus:outline-btn-carousel-outline text-gray-100/80 disabled:text-gray-100/15 dark:text-gray-0/80 dark:disabled:text-gray-0/15 duration-150 ease-out-cubic transition-all flex justify-center items-center h-[2.25rem] w-[2.25rem] m:h-[2.5rem] m:w-[2.5rem] rounded-s disabled:hover:animate-none hover:animate-wiggle-left active:scale-90"
+                            aria-label="Previous slide">
+                            <svg xmlns="http://www.w3.org/2000/svg" style="transform:rotate(90deg)" width="0.875rem"
+                                viewBox="0 0 14 8" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.292892 0.292894C0.683416 -0.0976306 1.31658 -0.0976315 1.70711 0.292892L7.00002 5.58579L12.2929 0.292894C12.6834 -0.0976306 13.3166 -0.0976315 13.7071 0.292892C14.0976 0.683416 14.0976 1.31658 13.7071 1.70711L7.70713 7.70711C7.51959 7.89464 7.26524 8 7.00002 8C6.7348 8 6.48045 7.89464 6.29291 7.70711L0.292894 1.70711C-0.0976306 1.31658 -0.0976315 0.683419 0.292892 0.292894Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </button>
+                        <button
+                            class="hover:text-btn-base--hover focus:outline-btn-carousel-outline text-gray-100/80 disabled:text-gray-100/15 dark:text-gray-0/80 dark:disabled:text-gray-0/15 duration-150 ease-out-cubic transition-all flex justify-center items-center h-[2.25rem] w-[2.25rem] m:h-[2.5rem] m:w-[2.5rem] rounded-s disabled:hover:animate-none hover:animate-wiggle-right active:scale-90"
+                            aria-label="Next slide">
+                            <svg xmlns="http://www.w3.org/2000/svg" style="transform:rotate(-90deg)" width="0.875rem"
+                                viewBox="0 0 14 8" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.292892 0.292894C0.683416 -0.0976306 1.31658 -0.0976315 1.70711 0.292892L7.00002 5.58579L12.2929 0.292894C12.6834 -0.0976306 13.3166 -0.0976315 13.7071 0.292892C14.0976 0.683416 14.0976 1.31658 13.7071 1.70711L7.70713 7.70711C7.51959 7.89464 7.26524 8 7.00002 8C6.7348 8 6.48045 7.89464 6.29291 7.70711L0.292894 1.70711C-0.0976306 1.31658 -0.0976315 0.683419 0.292892 0.292894Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="slider-wrapper">
+                    <div class="slider-item item-1">
+                        <img
+                            src="https://images.ctfassets.net/kftzwdyauwt9/3vjzQxExAEnYGvBSiwT1zK/d76028c004dbc7e9830e541cced6224f/ChatGPT_Charts_Blog_Hero.png?w=640&q=90&fm=webp" />
+                        <h2>Product . May 16, 2024</h2>
+                        <p>Improvements to data analysis in ChatGPT</p>
+                    </div>
+                    <div class="slider-item item-1">
+                        <video src="/assets/img/news/productmp4.mp4" autoplay muted loop
+                            style="max-width: 100%; height: 100%;"></video>
+                        <h2>Product . May 13, 2024</h2>
+                        <p>Introducing GPT-4o and more tools to ChatGPT free users</p>
+                    </div>
+                    <div class="slider-item item-1">
+                        <img
+                            src="https://images.ctfassets.net/kftzwdyauwt9/3u7r7E3gFRGZIxdKucf7f6/fea2b25e91c1f53a0e3f839a18c1caae/Navigating_the_Challenges_and_Opportunities_of_Synthetic_Voices.jpg?w=1080&q=90&fm=webp" />
+                        <h2>Product . Apr 4, 2024</h2>
+                        <p>Introducing improvements to the fine-tuning API and expanding our custom models program</p>
+                    </div>
+                    <div class="slider-item item-1">
+                        <img
+                            src="https://images.ctfassets.net/kftzwdyauwt9/5I8U1oYInnPjgj5qxpyuDi/f7e97052cf5df1a24d2ef9b62ae8c00f/26.png?w=1080&q=90&fm=webp" />
+                        <h2>Product . Apr 1, 2024</h2>
+                        <p>Start using ChatGPT instantly</p>
+                    </div>
+                    <div class="slider-item item-1">
+                        <img
+                            src="https://images.ctfassets.net/kftzwdyauwt9/6h9RXR3oEntutFBLAjVaEc/436a3018e3948ab70dbe82a54220a711/Introducing-improvements-to-the-fine-tuning-API-and-expanding-our-custom-models-program.jpg?w=640&q=90&fm=webp" />
+                        <h2>Product . March 29, 2024</h2>
+                        <p>Navigating the Challenges and Opportunities of Synthetic Voices</p>
+                    </div>
+                    <div class="slider-item item-1">
+                        <img
+                            src="https://images.ctfassets.net/kftzwdyauwt9/ec19d092-e613-41c0-89645a23f8f4/08a818b95c96db1db976afa564602324/new-embeddings-models-and-api-updates.jpg?w=1080&q=90&fm=webp" />
+                        <h2>Product . Jan 25, 2024</h2>
+                        <p>ChatGPT can now see, hear, and speak</p>
+                    </div>
+                    <div class="slider-item item-1">
+                        <img
+                            src="https://images.ctfassets.net/kftzwdyauwt9/vepIipF3lXkGJsDLyfw1a/50d383847388b36ec7b142fa9694366b/01_workspace_desktop.png?w=1080&q=90&fm=webp" />
+                        <h2>Product . Apr 1, 2024</h2>
+                        <p>Introducing ChatGPT Team</p>
+                    </div>
+                    <div class="slider-item item-1">
+                        <img
+                            src="https://images.ctfassets.net/kftzwdyauwt9/3oQ0LwB3yg3R5isshaaJKi/bf1e997adf17012fceea0feb29d35bf4/introducing_the_gpt_store.jpg?w=1080&q=90&fm=webp" />
+                        <h2>Product . Jan 10, 2024</h2>
+                        <p>Introducing the GPT Store</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- desktop3 -->
+        <section>
+            <div class="img-gallery">
+                <div class="slider-header">
+                    <h1>Research</h1>
+                    <div>
+                        <button
+                            class="hover:text-btn-base--hover focus:outline-btn-carousel-outline text-gray-100/80 disabled:text-gray-100/15 dark:text-gray-0/80 dark:disabled:text-gray-0/15 duration-150 ease-out-cubic transition-all flex justify-center items-center h-[2.25rem] w-[2.25rem] m:h-[2.5rem] m:w-[2.5rem] rounded-s disabled:hover:animate-none hover:animate-wiggle-left active:scale-90"
+                            aria-label="Previous slide">
+                            <svg xmlns="http://www.w3.org/2000/svg" style="transform:rotate(90deg)" width="0.875rem"
+                                viewBox="0 0 14 8" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.292892 0.292894C0.683416 -0.0976306 1.31658 -0.0976315 1.70711 0.292892L7.00002 5.58579L12.2929 0.292894C12.6834 -0.0976306 13.3166 -0.0976315 13.7071 0.292892C14.0976 0.683416 14.0976 1.31658 13.7071 1.70711L7.70713 7.70711C7.51959 7.89464 7.26524 8 7.00002 8C6.7348 8 6.48045 7.89464 6.29291 7.70711L0.292894 1.70711C-0.0976306 1.31658 -0.0976315 0.683419 0.292892 0.292894Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </button>
+                        <button
+                            class="hover:text-btn-base--hover focus:outline-btn-carousel-outline text-gray-100/80 disabled:text-gray-100/15 dark:text-gray-0/80 dark:disabled:text-gray-0/15 duration-150 ease-out-cubic transition-all flex justify-center items-center h-[2.25rem] w-[2.25rem] m:h-[2.5rem] m:w-[2.5rem] rounded-s disabled:hover:animate-none hover:animate-wiggle-right active:scale-90"
+                            aria-label="Next slide">
+                            <svg xmlns="http://www.w3.org/2000/svg" style="transform:rotate(-90deg)" width="0.875rem"
+                                viewBox="0 0 14 8" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.292892 0.292894C0.683416 -0.0976306 1.31658 -0.0976315 1.70711 0.292892L7.00002 5.58579L12.2929 0.292894C12.6834 -0.0976306 13.3166 -0.0976315 13.7071 0.292892C14.0976 0.683416 14.0976 1.31658 13.7071 1.70711L7.70713 7.70711C7.51959 7.89464 7.26524 8 7.00002 8C6.7348 8 6.48045 7.89464 6.29291 7.70711L0.292894 1.70711C-0.0976306 1.31658 -0.0976315 0.683419 0.292892 0.292894Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="slider-wrapper">
+                    <div class="slider-item item-1">
+                        <video
+                            src="https://videos.ctfassets.net/kftzwdyauwt9/6KWOAYzdFzJa8N8Ey7zQOf/fa672fa91af64620061d86da52f45541/gpt4o.mp4"
+                            autoplay muted loop style="max-width: 100%; height: 100%;"></video>
+                        <h2>Research . Jan 31, 2024</h2>
+                        <p>Hello GPT-4o</p>
+                    </div>
+                    <div class="slider-item item-1">
+                        <img
+                            src="https://images.ctfassets.net/kftzwdyauwt9/28bcbcb2-563a-432b-df938802863b/5fff5e2602331f7682792f5f541c75f9/young-tiger.jpg?w=1080&q=90&fm=webp" />
+                        <h2>Research . Feb 15, 2024</h2>
+                        <p>Video generation models as world simulators</p>
+                    </div>
+                    <div class="slider-item item-1">
+                        <img
+                            src="https://images.ctfassets.net/kftzwdyauwt9/373bf52a-5373-4d4e-230d7678254c/e6d514bd3908ce99747c59f686779e2b/improving-mathematical-reasoning-with-process-supervision.jpg?w=1080&q=90&fm=webp" />
+                        <h2>Research . Feb 15, 2024</h2>
+                        <p>Improvements to data analysis in ChatGPT</p>
+                    </div>
+                    <div class="slider-item item-1">
+                        <img
+                            src="https://images.ctfassets.net/kftzwdyauwt9/b5b6da55-f60d-43b3-afb2b9de4ff5/e4ebd00c19d99c36267f68fcd5dc795c/1.webp?w=1080&q=90&fm=webp" />
+                        <h2>Research . May 31, 2024</h2>
+                        <p>GPTs are GPTs: An early look at the labor market impact potential of large language models
+                        </p>
+                    </div>
+                    <div class="slider-item item-1">
+                        <img
+                            src="https://images.ctfassets.net/kftzwdyauwt9/243b509f-9d19-438e-4692c3b389a2/21ae8969e83c14dc33d559d77ce6bc46/image-21.webp?w=1080&q=90&fm=webp" />
+                        <h2>Research . Mar 14, 2024</h2>
+                        <p>GPT-4</p>
+                    </div>
+                    <div class="slider-item item-1">
+                        <img
+                            src="https://images.ctfassets.net/kftzwdyauwt9/7e4ba260-7655-4049-5a2568c94158/2f2af956a356ee2b507296d01e45e766/image-5.webp?w=1080&q=90&fm=webp" />
+                        <h2>Research . Dec 16, 2024</h2>
+                        <p>Point-E: A system for generating 3D point clouds from complex prompts</p>
+                    </div>
+                    <div class="slider-item item-1">
+                        <img
+                            src="https://images.ctfassets.net/kftzwdyauwt9/a8801fe6-8892-472b-f746d1d9fb2d/547c46ed9a8a71e89efbb7a7963a8932/image-6.webp?w=1080&q=90&fm=webp" />
+                        <h2>Research . Oct 19, 2024</h2>
+                        <p>Scaling laws for reward model overoptimization</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- desktop_4 -->
+        <section">
+            <div class="img-gallery">
+                <div class="slider-header">
+                    <h1>Stories</h1>
+                    <div>
+                        <button
+                            class="hover:text-btn-base--hover focus:outline-btn-carousel-outline text-gray-100/80 disabled:text-gray-100/15 dark:text-gray-0/80 dark:disabled:text-gray-0/15 duration-150 ease-out-cubic transition-all flex justify-center items-center h-[2.25rem] w-[2.25rem] m:h-[2.5rem] m:w-[2.5rem] rounded-s disabled:hover:animate-none hover:animate-wiggle-left active:scale-90"
+                            aria-label="Previous slide">
+                            <svg xmlns="http://www.w3.org/2000/svg" style="transform:rotate(90deg)" width="0.875rem"
+                                viewBox="0 0 14 8" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.292892 0.292894C0.683416 -0.0976306 1.31658 -0.0976315 1.70711 0.292892L7.00002 5.58579L12.2929 0.292894C12.6834 -0.0976306 13.3166 -0.0976315 13.7071 0.292892C14.0976 0.683416 14.0976 1.31658 13.7071 1.70711L7.70713 7.70711C7.51959 7.89464 7.26524 8 7.00002 8C6.7348 8 6.48045 7.89464 6.29291 7.70711L0.292894 1.70711C-0.0976306 1.31658 -0.0976315 0.683419 0.292892 0.292894Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </button>
+                        <button
+                            class="hover:text-btn-base--hover focus:outline-btn-carousel-outline text-gray-100/80 disabled:text-gray-100/15 dark:text-gray-0/80 dark:disabled:text-gray-0/15 duration-150 ease-out-cubic transition-all flex justify-center items-center h-[2.25rem] w-[2.25rem] m:h-[2.5rem] m:w-[2.5rem] rounded-s disabled:hover:animate-none hover:animate-wiggle-right active:scale-90"
+                            aria-label="Next slide">
+                            <svg xmlns="http://www.w3.org/2000/svg" style="transform:rotate(-90deg)" width="0.875rem"
+                                viewBox="0 0 14 8" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.292892 0.292894C0.683416 -0.0976306 1.31658 -0.0976315 1.70711 0.292892L7.00002 5.58579L12.2929 0.292894C12.6834 -0.0976306 13.3166 -0.0976315 13.7071 0.292892C14.0976 0.683416 14.0976 1.31658 13.7071 1.70711L7.70713 7.70711C7.51959 7.89464 7.26524 8 7.00002 8C6.7348 8 6.48045 7.89464 6.29291 7.70711L0.292894 1.70711C-0.0976306 1.31658 -0.0976315 0.683419 0.292892 0.292894Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="slider-wrapper">
+                    <div class="slider-item4" id="item-2">
+                        <img src="/assets/img/news/image1_desktop2.png" />
+                        <h2>Story</h2>
+                        <p>Moderna</p>
+                    </div>
+                    <div class="slider-item4" id="item-2">
+                        <img src="/assets/img/news/image2_desktop2.png" />
+                        <h2>Story</h2>
+                        <p>Klarna</p>
+                    </div>
+                    <div class="slider-item4" id="item-2">
+                        <img src="/assets/img/news/image3_desktop2.png" />
+                        <h2 class="img3">Story</h2>
+                        <p class="img3">Harvey</p>
+                    </div>
+                    <div class="slider-item4" id="item-2">
+                        <img src="/assets/img/news/image4_desktop2.png" />
+                        <h2>Story</h2>
+                        <p>Oscar</p>
+                    </div>
+                    <div class="slider-item4" id="item-2">
+                        <img src="/assets/img/news/image5_desktop2.png" />
+                        <h2>Story</h2>
+                        <p>Zelma</p>
+                    </div>
+                    <div class="slider-item4" id="item-2">
+                        <img src="/assets/img/news/image6_desktop2.png" />
+                        <h2>Story</h2>
+                        <p>JetBrains</p>
+                    </div>
+                    <div class="slider-item4" id="item-2">
+                        <img src="/assets/img/news/image7_desktop2.png" />
+                        <h2>Story</h2>
+                        <p>Superhuman</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </section>
+    <!-- desktop5 -->
+    <section>
+        <div class="img-gallery">
+            <div class="slider-header">
+                <h1>Company</h1>
+                <div>
+                    <button
+                        class="hover:text-btn-base--hover focus:outline-btn-carousel-outline text-gray-100/80 disabled:text-gray-100/15 dark:text-gray-0/80 dark:disabled:text-gray-0/15 duration-150 ease-out-cubic transition-all flex justify-center items-center h-[2.25rem] w-[2.25rem] m:h-[2.5rem] m:w-[2.5rem] rounded-s disabled:hover:animate-none hover:animate-wiggle-left active:scale-90"
+                        aria-label="Previous slide">
+                        <svg xmlns="http://www.w3.org/2000/svg" style="transform:rotate(90deg)" width="0.875rem"
+                            viewBox="0 0 14 8" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.292892 0.292894C0.683416 -0.0976306 1.31658 -0.0976315 1.70711 0.292892L7.00002 5.58579L12.2929 0.292894C12.6834 -0.0976306 13.3166 -0.0976315 13.7071 0.292892C14.0976 0.683416 14.0976 1.31658 13.7071 1.70711L7.70713 7.70711C7.51959 7.89464 7.26524 8 7.00002 8C6.7348 8 6.48045 7.89464 6.29291 7.70711L0.292894 1.70711C-0.0976306 1.31658 -0.0976315 0.683419 0.292892 0.292894Z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </button>
+                    <button
+                        class="hover:text-btn-base--hover focus:outline-btn-carousel-outline text-gray-100/80 disabled:text-gray-100/15 dark:text-gray-0/80 dark:disabled:text-gray-0/15 duration-150 ease-out-cubic transition-all flex justify-center items-center h-[2.25rem] w-[2.25rem] m:h-[2.5rem] m:w-[2.5rem] rounded-s disabled:hover:animate-none hover:animate-wiggle-right active:scale-90"
+                        aria-label="Next slide">
+                        <svg xmlns="http://www.w3.org/2000/svg" style="transform:rotate(-90deg)" width="0.875rem"
+                            viewBox="0 0 14 8" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.292892 0.292894C0.683416 -0.0976306 1.31658 -0.0976315 1.70711 0.292892L7.00002 5.58579L12.2929 0.292894C12.6834 -0.0976306 13.3166 -0.0976315 13.7071 0.292892C14.0976 0.683416 14.0976 1.31658 13.7071 1.70711L7.70713 7.70711C7.51959 7.89464 7.26524 8 7.00002 8C6.7348 8 6.48045 7.89464 6.29291 7.70711L0.292894 1.70711C-0.0976306 1.31658 -0.0976315 0.683419 0.292892 0.292894Z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="slider-wrapper">
+                <div class="slider-item item-1">
+                    <img
+                        src="https://images.ctfassets.net/kftzwdyauwt9/2oOdYlEm4NHQCiqTsStMuD/ffe7260fb16cac11a570313b78cec8b8/DALL_E_2024-05-06_19.10.23.webp?w=1080&q=90&fm=webp" />
+                    <h2>Company . May 8, 2024</h2>
+                    <p>Introducing the Model Spec</p>
+                </div>
+                <div class="slider-item item-1">
+                    <img
+                        src="https://images.ctfassets.net/kftzwdyauwt9/1eZQ3ygMG9qrQRjycDmQIE/53c901d8d2fa24bb6ee2c1e8166a13f2/OpenAI-announces-new-members-to-board-of-directors.jpg?w=1080&q=90&fm=webp" />
+                    <h2>Company . Mar 8, 2024</h2>
+                    <p>OpenAI announces new members to board of directors</p>
+                </div>
+                <div class="slider-item item-1">
+                    <img
+                        src="https://images.ctfassets.net/kftzwdyauwt9/3BEH4mYgX0MXC45XOsbOru/fdcc0dadabd87f8e9a776a2f34647de0/37.png?w=1080&q=90&fm=webp" />
+                    <h2>Company . Mar 8, 2024</h2>
+                    <p>Review completed & Altman, Brockman to continue to lead OpenAI</p>
+                </div>
+                <div class="slider-item item-1">
+                    <img
+                        src="https://images.ctfassets.net/kftzwdyauwt9/2M3VUBzndWoB6PWQ9Uad8u/4abfd8660278a657726e5284d0b8dabe/31.png?w=1080&q=90&fm=webp" />
+                    <h2>Company . Mar 5, 2024</h2>
+                    <p>Improvements to data analysis in ChatGPT</p>
+                </div>
+                <div class="slider-item item-1">
+                    <img
+                        src="https://images.ctfassets.net/kftzwdyauwt9/32ueBHt13FdHECW1Yt52T2/3bcee2756bc606d3fc3826abe5abf640/39.png?w=1080&q=90&fm=webp" />
+                    <h2>Company . Mar 3, 2024</h2>
+                    <p>ChatGPT can now see, hear, and speak</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-light text-black">
+        <div class="container text-center text-md-center">
+            <div class="row align-items-center">
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black"><i class="fab fa-youtube"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black"><i class="fab fa-github"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black"><i class="fab fa-tiktok"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black"><i class="fab fa-discord"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row align-items-center">
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black fw-bold text-decoration-none">Home</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black fw-bold text-decoration-none">Products</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black fw-bold text-decoration-none">News</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black fw-bold text-decoration-none">Careers</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black fw-bold text-decoration-none">About us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row align-items-center">
+                <p>Copyright©2024 All rights reserved by:
+                    <a href="#" class="text-info"
+                        style="text-decoration: none; font-size: 15px;"><strong>Kingsman</strong></a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="/assets/js/news.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+</body>
+
+</html>

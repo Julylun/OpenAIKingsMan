@@ -11,11 +11,46 @@
     <!-- bootstrap icon cdn -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
     <link rel="stylesheet" href="/assets/css/product.css" />
+
 </head>
 
 <body>
 
-    <!-- <div id="header"></div> -->
+    <!-- header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <a class="navbar-brand" href="index.html">
+                <img src="/assets/img/home/logo.png">
+            </a>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/subpages/product.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/subpages/news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/subpages/career.html">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/subpages/about.html">About us</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn" type="button">
+                <img src="/assets/img/home/search.png">
+            </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </header>
+    <!-- main-content -->
     <div class="container-fluid ">
         <div class="flex-vertical" id="brief-introduction">
             <div class="text-center text-balance scale-up-div">
@@ -273,7 +308,68 @@
         <!-- <div id="footer"> -->
 
     </div>
-    <script src="/assets/js/index.js"></script>
+
+    <!-- footer -->
+    <footer class="bg-light text-black">
+        <div class="container text-center text-md-center">
+            <div class="row align-items-center">
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black"><i class="fab fa-youtube"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black"><i class="fab fa-github"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black"><i class="fab fa-tiktok"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black"><i class="fab fa-discord"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row align-items-center">
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black fw-bold text-decoration-none">Home</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black fw-bold text-decoration-none">Products</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black fw-bold text-decoration-none">News</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black fw-bold text-decoration-none">Careers</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="btn-floating btn-sm text-black fw-bold text-decoration-none">About us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row align-items-center">
+                <p>Copyright©2024 All rights reserved by:
+                    <a href="#" class="text-info"
+                        style="text-decoration: none; font-size: 15px;"><strong>Kingsman</strong></a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- cdn dropdown menu -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="/assets/js/product.js"></script>
 </body>
 

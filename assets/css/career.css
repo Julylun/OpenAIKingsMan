@@ -1,3 +1,4 @@
+
 p {
   font-size: 16px;
 }
@@ -47,27 +48,30 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
   margin: 0;
+  padding: 0;
   text-align: left;
 }
-
+span{
+  margin-right: 5vw;
+}
 .mission p {
   font-size: 1.25rem;
   margin-bottom: 1rem;
   text-align: left;
 }
-
 h2 {
-  font-size: 2rem;
   font-weight: normal;
   margin-bottom: 1rem;
 }
-
 a {
   font-size: 1rem;
-  color: #007bff;
   text-decoration: none;
+  color:#000 !important;
 }
-
+.narrow-section {
+  max-width: 700px;
+  margin: 0 auto;
+}
 a:hover {
   text-decoration: underline;
 }
@@ -78,6 +82,7 @@ a:hover {
   font-size: 1rem;
   line-height: 1.75;
   text-align: center;
+ 
 }
 
 .mission p {
@@ -99,6 +104,7 @@ img.img-fluid {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 2rem;
   width: 700px;
+ 
 }
 
 .feature ul,

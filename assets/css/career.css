@@ -19,6 +19,14 @@ body {
 ul li {
   cursor: pointer;
 }
+.fixed-header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 .navbar-custom {
   background: rgba(255, 255, 255, 0.7);
   padding: 5px 7%;

@@ -54,7 +54,7 @@ ul li {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  background-color: #fff;
   margin: 0;
   padding: 0;
   text-align: left;
@@ -152,4 +152,45 @@ img.img-fluid {
 
 .bg-center {
   background-position: center;
+}
+.feature-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.feature-box img {
+  max-width: 100%;
+  border-radius: 30px;
+}
+.feature-box .content {
+  padding: 20px;
+}
+.feature-box .content h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+.feature-box .content p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+.feature-box .content a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #007bff;
+}
+.feature-box .content a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 767.98px) {
+  .feature-box {
+      flex-direction: column;
+      text-align: center;
+  }
+  .feature-box .content {
+      padding: 0;
+  }
 }

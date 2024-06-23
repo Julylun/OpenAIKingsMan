@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel = "stylesheet" href="/assets/css/talkGPT.css">
+    </head>
+    <body>
+        <header>
+            <div class = 'turn-back'>
+                <img src="/assets/img/talkGPT/returnImg.svg">
+            </div>
+            <div id = 'talkgpt-brand-container'>
+                <h1>TalkGPT</h1>
+            </div>
+            <div></div>
+        </header>
+        <div id = 'content-container'>
+            <div id = 'chat-container'>
+                <ul id = 'message-container'>
+                    <li class = "message-item talk-gpt-message">
+                        <div>
+                            <div class = "name">
+                                <p>
+                                    TalkGPT
+                                </p>
+                            </div>
+                            <div class = 'message'>
+                                <p>Hi guy, how can I help you?</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class = "message-item user-message">
+                        <div>
+                            <div class = "name">
+                                <p>
+                                    User
+                                </p>
+                            </div>
+                            <div class = 'message'>
+                                <p>Tôi đẹp trai</p>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+                <div id = 'input-container'>
+                    <textarea id = 'content-input' placeholder="TalkGPT message"></textarea>
+                    <button id = 'send-button'>Send</button>
+                </div>
+            </div>
+        </div>
+
+        <script type = 'module' src ='../assets/js/talkGPT/talkgpt.js'></script>
+    </body>
+</html>
